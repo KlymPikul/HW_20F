@@ -30,8 +30,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-#seal,
-#location {
+#seal {
   max-width: 200px;
   height: auto;
   margin-right: 10px;
