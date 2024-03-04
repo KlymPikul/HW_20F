@@ -4,7 +4,6 @@ const foundation = document.getElementById("foundation");
 const nationalLanguage = document.getElementById("language");
 const countryCapital = document.getElementById("capital");
 const countryAnthem = document.getElementById("anthem");
-const countrySeal = document.getElementById("seal");
 const countryPopulation = document.getElementById("population");
 const nationalCurrency = document.getElementById("currency");
 const countryTimeZone = document.getElementById("timeZone");
@@ -21,7 +20,6 @@ const getData = async () => {
     nationalLanguage.textContent = `Languages: ${languages.join(", ")}`;
     countryCapital.textContent = `Capital: ${capital}`;
     countryAnthem.innerHTML = `<a href="${anthem}" target="_blank">Anthem</a>`;
-    countrySeal.src = seal;
     countryPopulation.textContent = `Population: ${population}`;
     nationalCurrency.textContent = `Currency: ${currency.name} (${currency.code})`;
     countryTimeZone.textContent = `Time Zone: ${timeZone}`;
